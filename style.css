@@ -1,0 +1,75 @@
+boby{
+    margin: 0 ;
+}
+ .header{
+    text-align: center;
+    text-shadow: 10px 10px 15px;
+ }
+ 
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: auto;
+    margin-top: 50px;
+    transition: 1s;
+    transition-duration: 1s;
+}
+ .box-1 p{
+    text-align: center;
+    padding-top: 45px;
+    text-transform: uppercase;
+ }
+ .box-1:hover{
+    transform: scale(1.4);
+ }
+
+ .box-2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(43, 226, 174);
+    margin: auto;
+    margin-top: 50px;
+    transition: 1s;
+ }
+.box-2 p{
+    text-align: center;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+.box-2:hover{
+    transform: scale( 1.5);
+    box-shadow: 10px 10px 15px rgb(0, 255, 115);
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(43, 95, 226);
+    margin: auto;
+    margin-top: 50px;
+    transition: 1s;
+}
+.box-3 p{
+    text-align: center;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+.box-3:hover{
+    transform:scale(1.4) rotate(25deg);
+}
+  .box-4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 89, 43);
+    margin: auto;
+    margin-top: 50px;
+    transition: 1s;
+  }
+  .box-4 p{
+    text-align: center;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+.box-4:hover{
+    transform: scale(1.4) rotateX(50deg) rotateY( 30deg);
+}
